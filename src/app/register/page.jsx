@@ -1,5 +1,6 @@
 "use client";
 
+import { authClient } from "@/lib/auth-client";
 import {Button, Description, FieldError, Form, Input, Label, TextField} from "@heroui/react";
 import Link from "next/link";
 
@@ -16,6 +17,11 @@ const RegisterPage = () => {
     const password=e.target.password.value
 
     console.log({name,image,email,password})
+
+    const {data,error}=await authClient.signUp.email({
+      name,image,email,password
+    })
+    console.log({data,error})
 
   
   };
