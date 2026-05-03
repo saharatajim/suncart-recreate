@@ -1,9 +1,17 @@
-
+"use client"
 import Link from 'next/link';
 import React from 'react';
 import NavLink from "@/components/NavLink"
+import { authClient } from '@/lib/auth-client';
+import { Avatar } from '@heroui/react';
 
 const Navbar = () => {
+  const SignOut=async()=>{
+    await authClient.signOut();
+  }
+  const userData = authClient.useSession() 
+      const user=userData?.data
+      console.log(user)
  const navItems=[
     {
         path:"/",
@@ -46,9 +54,27 @@ const Navbar = () => {
       }
     </ul>
   </div>
-  <div className="navbar-end space-x-4">
-    <Link href={'/signin'} className="btn btn-outline border-warning text-white scale-80 md:scale-100">Sign In</Link>
+  <div className="navbar-end ">
+  { user?
+    <div className='space-x-4 flex items-center'>
+   <div className='flex items-center text-warning space-x-4'>
+     <Avatar className='w-10 h-10'>
+            <Avatar.Image alt="John Doe" src={user?.user?.image} />
+            <Avatar.Fallback>JD</Avatar.Fallback>
+          </Avatar>
+          <p>{user?.user?.name}</p>
+   </div>
+     <button onClick={SignOut}>
+      <Link href={'/signin'} className="btn btn-outline border-warning text-white scale-80 md:scale-100">Sign Out</Link>
+     </button>
+   </div>
+   :
+   <div className='space-x-4'>
+     <Link href={'/signin'} className="btn btn-outline border-warning text-white scale-80 md:scale-100">Sign In</Link>
     <Link href={'/register'}  className="btn btn-warning text-white scale-80 md:scale-100">Register</Link>
+   </div>
+   
+   }
   </div>
 </div>
         </div>
