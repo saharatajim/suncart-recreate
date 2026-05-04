@@ -4,9 +4,11 @@ import React from 'react';
 import NavLink from "@/components/NavLink"
 import { authClient } from '@/lib/auth-client';
 import { Avatar } from '@heroui/react';
+import { toast } from 'react-toastify';
 
 const Navbar = () => {
   const SignOut=async()=>{
+    toast("signout completed")
     await authClient.signOut();
   }
   const userData = authClient.useSession() 

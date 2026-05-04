@@ -6,6 +6,7 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 
 import React from 'react';
+import { toast } from "react-toastify";
 
 
 const RegisterPage = () => {
@@ -25,6 +26,7 @@ const RegisterPage = () => {
     })
     console.log({data,error})
     if(data){
+      toast("resigtration completed")
       router.push("/")
     }
 

@@ -5,16 +5,18 @@ import {Button, Description, FieldError, Form, Input, Label, TextField} from "@h
 import Link from "next/link";
 
 import React from 'react';
+import { toast } from "react-toastify";
 
 
 const SignInPage = () => {
-const googleSignIn=async ()=>{
-  alert("your google signin completed")
-   await authClient.signIn.social({
-    provider: "google",
-  });
-}
+// const googleSignIn=async ()=>{
+//   alert("your google signin completed")
+//    await authClient.signIn.social({
+//     provider: "google",
+//   });
+// }
      const onSubmit =async (e) => {
+      
     e.preventDefault();
     
    
@@ -23,12 +25,19 @@ const googleSignIn=async ()=>{
 
     console.log({email,password})
      const {data,error}=await authClient.signIn.email({
-          email,password
+          email,password,callbackURL:'/'
         })
         console.log({data,error})
+        if(data){
+          toast("your  signin completed")
+        }
+        if(error){
+           toast("your  signin failed")
+        }
 
 };
  const signIn = async () => {
+  alert("your google signin completed")
   const data = await authClient.signIn.social({
     provider: "google",
   });
