@@ -25,11 +25,14 @@ const SignInPage = () => {
 
     console.log({email,password})
      const {data,error}=await authClient.signIn.email({
-          email,password,callbackURL:'/'
+          email,password
         })
         console.log({data,error})
         if(data){
-          toast("your  signin completed")
+          toast.success("your  signin completed")
+               setTimeout(() => {
+        window.location.href = "/";
+      }, 1500);
         }
         if(error){
            toast("your  signin failed")
@@ -37,7 +40,7 @@ const SignInPage = () => {
 
 };
  const signIn = async () => {
-  alert("your google signin completed")
+  toast.success("your google signin completed")
   const data = await authClient.signIn.social({
     provider: "google",
   });

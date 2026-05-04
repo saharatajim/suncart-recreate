@@ -26,7 +26,7 @@ const RegisterPage = () => {
     })
     console.log({data,error})
     if(data){
-      toast("resigtration completed")
+      toast.success("resigtration completed")
       router.push("/")
     }
 
