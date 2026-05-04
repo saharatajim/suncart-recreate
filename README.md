@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🌞 SunCart – Summer Essentials Store
 
-## Getting Started
+A modern summer eCommerce platform where users can explore and purchase seasonal products like sunglasses, summer outfits, skincare, beach accessories, and more.  
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🎯 Purpose
+SunCart is designed to provide a seamless shopping experience for summer essentials. Users can browse products, view details, and place orders after authentication.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## ✨ Key Features
+- 🔐 Authentication with **BetterAuth** (Email/Password + Google Login)
+- 📦 Product details page (protected route)
+- 👤 User profile with update option
+- 🎨 Unique summer-themed design
+- 📱 Fully responsive (mobile, tablet, desktop)
+- 🎉 Toast notifications for success/error
+- 🌐 Hosted on **Vercel**
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 📂 Project Structure
+- **Navbar & Footer** (persistent layout)
+- **Home Page**
+  - Hero banner with summer sale offers
+  - Popular products section
+  - Summer care tips
+  - Top brands showcase
+- **Products Page**
+  - List of all products from database
+- **Product Details Page**
+  - Protected route (login required)
+- **Authentication**
+  - Login & Register pages
+  - Google social login
+- **Profile Page**
+  - View and update user info
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🛠️ Tech Stack
+- **Next.js (App Router)**
+- **Tailwind CSS**
+- **DaisyUI / HeroUI**
+- **BetterAuth**
+- **React-Toastify**
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🔑 Environment Variables
+Make sure to configure environment variables for authentication:
