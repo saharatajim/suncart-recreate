@@ -7,7 +7,7 @@
     "rating": 4.7,
     "stock": 10,
     "description": "Stylish UV protection sunglasses perfect for summer outings.",
-    "image": "/sunglass.jpg",
+    "image": "https://www.thelist.com/img/gallery/the-top-5-best-sunglasses-for-uv-protection/l-intro-1627931422.jpg",
     "category": "Accessories"
   },
   {
@@ -18,7 +18,7 @@
     "rating": 4.6,
     "stock": 15,
     "description": "Wide-brim straw hat offering shade and style for sunny days.",
-    "image": "/hat.jpg",
+    "image": "https://tse2.mm.bing.net/th/id/OIP.cT4HqXohmkBbBYncq8jrZgHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
     "category": "Accessories"
   },
   {
@@ -29,7 +29,7 @@
     "rating": 4.5,
     "stock": 18,
     "description": "Spacious canvas tote bag for carrying beach essentials.",
-    "image": "/tote.jpg",
+    "image": "https://tse4.mm.bing.net/th/id/OIP.UY6brWU0i37OP9ppdvBGGAHaJ4?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
     "category": "Accessories"
   },
   {
@@ -40,7 +40,7 @@
     "rating": 4.5,
     "stock": 25,
     "description": "Comfortable and lightweight flip-flops ideal for sandy beaches.",
-    "image": "/flip-flop.jpg",
+    "image": "https://images.stockcake.com/public/5/b/1/5b173fb7-41ef-44e6-9b76-414e85e47c31_large/beach-sunset-flip-flops-stockcake.jpg",
     "category": "Footwear"
   },
   {
@@ -51,7 +51,7 @@
     "rating": 4.6,
     "stock": 14,
     "description": "Protective water shoes designed for swimming and rocky shores.",
-    "image": "/watershoes.jpg",
+    "image": "https://tse3.mm.bing.net/th/id/OIP.DG5sPompOFvl1qQbbWCcMgHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
     "category": "Footwear"
   },
   {
@@ -62,7 +62,7 @@
     "rating": 4.8,
     "stock": 8,
     "description": "Insulated cooler bag to keep drinks and snacks chilled during summer trips.",
-    "image": "/handbag.jpg",
+    "image": "https://tse2.mm.bing.net/th/id/OIP.ejhycK4lw2-S8WTw_8yThAHaGe?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
     "category": "Outdoor"
   },
   {
@@ -73,7 +73,7 @@
     "rating": 4.7,
     "stock": 10,
     "description": "Lightweight foldable chair for comfortable beach lounging.",
-    "image": "/chair.jpg",
+    "image": "https://tse4.mm.bing.net/th/id/OIP.A-J5iTiMkS3Oo6TL93Xb_QHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
     "category": "Outdoor"
   },
   {
@@ -84,7 +84,7 @@
     "rating": 4.9,
     "stock": 12,
     "description": "Portable waterproof speaker for pool parties and beach fun.",
-    "image": "/speaker.jpg",
+    "image": "https://m.media-amazon.com/images/I/81vJTuvyQrL._AC_SL1500_.jpg",
     "category": "Electronics"
   },
   {
@@ -95,7 +95,7 @@
     "rating": 4.6,
     "stock": 9,
     "description": "Eco-friendly  power bank to charge devices outdoors.",
-    "image": "/powerbank.jpg",
+    "image": "https://th.bing.com/th/id/OIP.RvrVVgm5vRSOgGT9stzLeAHaGk?r=0&o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3",
     "category": "Electronics"
   },
   {
@@ -106,7 +106,7 @@
     "rating": 4.8,
     "stock": 20,
     "description": "Soothing aloe vera gel to refresh and hydrate skin after sun exposure.",
-    "image": "/aloevera.jpg",
+    "image": "https://wallpaperaccess.com/full/1463934.jpg",
     "category": "Skincare"
   },
   {
@@ -117,7 +117,7 @@
     "rating": 4.7,
     "stock": 22,
     "description": "Broad-spectrum sunscreen lotion to protect skin from harmful UV rays.",
-    "image": "/sunscreen.jpg",
+    "image": "https://i.pinimg.com/originals/c5/ef/14/c5ef144b242ee5de8757269967245e96.jpg",
     "category": "Skincare"
   }
 ]
