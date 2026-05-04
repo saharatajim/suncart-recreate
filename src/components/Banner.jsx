@@ -3,6 +3,7 @@ import React from 'react';
 import 'animate.css';
 import { GoDotFill } from 'react-icons/go';
 import { FaArrowRight } from 'react-icons/fa';
+import banner from '../asset/banner-left.jpg'
 const Banner = () => {
     return (
       <div>
@@ -29,7 +30,7 @@ Ever</span>
            </div>
 
            <div >
-            <Image className=' animate-pulse h-auto shadow-lg shadow-gray-500/30 rounded-2xl' loading="eager" src={'/src/asset/banner-left.jpg'} width={500} height={500} alt='banner'/>
+            <Image className=' animate-pulse h-auto shadow-lg shadow-gray-500/30 rounded-2xl' loading="eager" src={banner} width={500} height={500} alt='banner'/>
            </div>
            
         </div>
