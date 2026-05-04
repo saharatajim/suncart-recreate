@@ -9,6 +9,7 @@ import React from 'react';
 
 const SignInPage = () => {
 const googleSignIn=async ()=>{
+  alert("your google signin completed")
    await authClient.signIn.social({
     provider: "google",
   });

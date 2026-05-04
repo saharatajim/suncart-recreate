@@ -29,7 +29,7 @@ Ever</span>
            </div>
 
            <div >
-            <Image className=' animate-pulse h-auto shadow-lg shadow-gray-500/30 rounded-2xl' loading="eager" src={'/4902528.jpg'} width={500} height={500} alt='banner'/>
+            <Image className=' animate-pulse h-auto shadow-lg shadow-gray-500/30 rounded-2xl' loading="eager" src={'/src/asset/banner-left.jpg'} width={500} height={500} alt='banner'/>
            </div>
            
         </div>
